@@ -41,7 +41,7 @@ def main():
     # set the timeout (if provided)
     if timeout is None:
         timeout = DEFAULT_SOCKET_TIMEOUT_SECS
-    socket.setdefaulttimeout(timeout)
+    socket.setdefaulttimeout(float(timeout))
 
     # create an ipv4 (AF_INET) socket object using the tcp protocol (SOCK_STREAM)
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
