@@ -8,7 +8,7 @@
 #    1. Status of each socialcontact in the search result is updated to DISCARDED
 #
 # Requires:
-#   - Python 2.x / 3.x
+#   - Python 3.x
 #   - Requests (https://pypi.org/project/requests/)
 #
 # Licensed under the MIT License. For more details, see LICENSE file
